@@ -2,10 +2,12 @@
 #define EDITOR_
 #include "LinkedList.h"
 #include<string>
+using std::string
+
 class editor {
 
 private:
-	LinkedList <std::string> Line;
+	LinkedList <string> lines;
 public:
 	void Editor();
 	void DisplayLines();
